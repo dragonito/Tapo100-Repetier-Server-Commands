@@ -58,3 +58,11 @@ its quite easy, just run as gcode, you could also add it to your gcode after fin
 or
 
 `@execute printer_on`
+
+Try following after print
+
+```
+M190 R35
+@syncMotion
+@execute printer_off
+```
